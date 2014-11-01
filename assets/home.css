@@ -1,0 +1,202 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FDF1CC; }
+
+header, p {
+  position: relative;
+  font-family: "adobe-garamond-pro"; }
+
+h1, h2, h3, h4 {
+  font-family: "ff-nuvo-sc-web-pro"; }
+
+h1 {
+  padding-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0; }
+
+h2 {
+  margin-top: -.5em;
+  padding: 0;
+  font-style: italic;
+  font-size: 0.95em; }
+
+h3 {
+  margin: 0;
+  padding: 0; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-szie: 0.9em;
+  text-decoration: underline; }
+
+/* Start Content */
+article p {
+  margin-top: 0;
+  padding-top: 0; }
+
+article ul li {
+  margin: 5px; }
+
+#container {
+  display: block;
+  position: relative;
+  padding-left: 210px;
+  padding-top: 0;
+  top: 0; }
+
+.content {
+  display: block;
+  width: 75%;
+  margin: 0 auto; }
+
+.page {
+  display: block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  padding-bottom: 20px;
+  align: center;
+  overflow: visible; }
+
+.page a {
+  color: #000; }
+
+.page:nth-child(2n) {
+  background-color: #C6D6B8; }
+
+.page:nth-child(2n+1) {
+  background-color: #FDF1CC; }
+
+.round {
+  border: 1px solid #000000;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px; }
+
+/* End Content */
+/* Resume Table Page */
+.date {
+  text-align: right;
+  font-size: 12px;
+  display: inline-block;
+  width: 125px; }
+
+table {
+  width: 100%;
+  font-family: "adobe-garamond-pro";
+  margin: 0;
+  padding: 0; }
+
+.resume {
+  padding: 10px 10px 10px 0; }
+
+.resume h3 {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: normal; }
+
+.resume ul {
+  margin-left: 10px;
+  padding-left: 10px; }
+
+.resume .section {
+  padding-right: 10px; }
+
+td {
+  vertical-align: text-top; }
+
+/* End resume section */
+#Esther {
+  float: right;
+  height: 150px;
+  width: auto; }
+
+/* START NAV MENU */
+nav {
+  background-color: #987F69;
+  width: 210px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 10px;
+  z-index: 900; }
+
+#name {
+  font-size: 1.7em;
+  padding-top: 10px;
+  padding-bottom: 15px; }
+
+#face {
+  display: block;
+  width: 75px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 5px; }
+
+nav hr {
+  width: 75%;
+  color: #FDF1CC; }
+
+nav hr {
+  display: block;
+  height: 1px;
+  width: 75%;
+  border: 0;
+  border-top: 1px solid #FDF1CC;
+  padding: 0; }
+
+nav ul {
+  font-family: "ff-nuvo-sc-web-pro";
+  font-size: 16px;
+  margin: 0;
+  padding: 15px 0;
+  list-style: none; }
+
+nav ul li {
+  display: block;
+  position: relative; }
+
+nav ul li, nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 0;
+  color: #FDF1CC;
+  white-space: nowrap;
+  width: 210px;
+  text-align: center; }
+
+nav ul li a:hover {
+  color: #E3AD40; }
+
+/* Social Networking Logos */
+#links {
+  padding: 20px 10px; }
+
+#links ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 8px; }
+
+#links ul li {
+  display: inline;
+  margin: 10px; }
+
+#links ul li a, #links ul li img {
+  display: inline;
+  height: 26px;
+  width: auto;
+  border-style: 0; }
+
+/* End Logos */
+/* END NAV MENU */
